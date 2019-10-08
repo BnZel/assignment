@@ -8,3 +8,8 @@ cache: npm
 
 before_install:
   - ls -la
+
+install:
+  - ls -la
+  - install npm
+  - ls -la
