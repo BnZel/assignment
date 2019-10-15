@@ -9,12 +9,5 @@ cache: npm
 before_install:
   - ls -la
 
-install:
-  - npm install
-
-script:
-  - npm run build
-  - npm run test
-
 notifications:
   slack: gbcdevopssquad:Tytm620BaZ1HHvXTYKcGwS3k
